@@ -1,6 +1,15 @@
-
 var audio = document.getElementById("audio");
-audio.volume = 0.05;
+var audioText = document.getElementById("audioButton");
+var slider = document.getElementById("slider");
+audio.volume=0.05;
+slider.addEventListener("input", volumeChange);
+
+function volumeChange() {
+  var x = slider.value;
+  audio.volume = (x/100);
+  console.log(audio.volume);
+}
+
 const star = [];
 const star_x = [];
 const star_y = [];
@@ -363,3 +372,13 @@ function update_tiny(i) {
     tiny[i].style.visibility = "hidden";
     return false
 }
+function audioPlay() {
+    if (audio.muted === true) {
+      audio.muted = false;
+      audioText.innerHTML = "mute";
+    } else {
+      audio.muted = true;
+      audioText.innerHTML = "unmute";
+    }
+  }
+
