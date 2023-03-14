@@ -1,13 +1,6 @@
 
 var audio = document.getElementById("audio");
 audio.volume = 0.05;
-
-$(document).ready(function(){
-    $("#audio")[0].volume = 0;
-    $("#audio").animate({volume: 1}, 100);
-  });
-
-
 const star = [];
 const star_x = [];
 const star_y = [];
