@@ -24,11 +24,11 @@ $(document).ready(() => {
     },
     {
       name: "therapy",
-      link: "http://t.me/x_284729472",
+      link: "https://t.me/x_284729472",
     },
     {
       name: "discord",
-      link: "http://www.discord.gg/his",
+      link: "https://discord.gg/his",
     },
     
   ];
@@ -44,7 +44,7 @@ $(document).ready(() => {
 
     if (i != links.length - 1)
       $("#marquee").append(
-        ' <img class="emoticon" src="assets/others/mgh_17.png"> '
+        ' <img class="emoticon" src="assets/others/scroll.png"> '
       );
   }
 
@@ -62,18 +62,13 @@ $(document).ready(() => {
 
   app.titleChanger([
     " ᠌ ᠌ ᠌ ᠌ ᠌ ᠌ ᠌ ᠌",
-    "a",
-    "ap",
-    "ape",
-    "apem",
-    "apema",
+    "how",
+    "to",
+    "love",
     "apeman",
-    "apeman",
-    "apema",
-    "apem",
-    "ape",
-    "ap",
-    "a",
+    "love",
+    "to",
+    "how",
   ]);
   app.iconChanger([
     "assets/others/apeman.png",
