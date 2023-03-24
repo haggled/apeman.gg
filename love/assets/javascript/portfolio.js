@@ -19,7 +19,7 @@ $(document).ready(() => {
       link: "https://t.me/lvtrenton",
     },
     {
-      name: "flipd",
+      name: "josh",
       link: "http://flipd.gg/hero",
     },
     {
@@ -27,8 +27,8 @@ $(document).ready(() => {
       link: "https://t.me/x_284729472",
     },
     {
-      name: "discord",
-      link: "https://discord.gg/his",
+      name: "ethan",
+      link: "https://t.me/metromanipulator",
     },
     
   ];
